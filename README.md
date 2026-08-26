@@ -14,9 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://readme-typing-svg.demolab.com/demo/?lines=AI+Developer;Python;PyTorch;AI+Agent;持续学习，把复杂变简单&font=Fira+Code&size=28&duration=3000&pause=1000&center=true&repeat=true&width=440&height=60">
-    <img src="https://readme-typing-svg.demolab.com?lines=AI+Developer;Python;PyTorch;AI+Agent;持续学习，把复杂变简单&font=Fira+Code&size=28&duration=3000&pause=1000&center=true&repeat=true&width=440&height=60" alt="Typing SVG"/>
-  </a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&width=440&height=60&lines=AI+Developer;Python;PyTorch;AI+Agent;%E6%8C%81%E7%BB%AD%E5%AD%A6%E4%B9%A0%EF%BC%8C%E6%8A%8A%E5%A4%8D%E6%9D%82%E5%8F%98%E7%AE%80%E5%8D%95" alt="Typing SVG" /></a>
 </p>
 
 <hr/>
