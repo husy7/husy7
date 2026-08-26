@@ -48,11 +48,13 @@
   </a>
 </p>
 
-<!-- ====== 3. 动态统计卡片 ====== -->
+<!-- ====== 3. GitHub 统计（使用 shields.io 官方端点，不依赖第三方 Vercel） ====== -->
 <h3 align="left">📊 GitHub 统计</h3>
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=husy7&show_icons=true&theme=radical" alt="GitHub Stats" height="170"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=husy7&layout=compact&theme=radical" alt="Top Langs" height="170"/>
+  <img src="https://img.shields.io/github/followers/husy7?label=Followers&style=social" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/husy7?label=Total%20Stars&style=social" alt="Stars"/>
+  <img src="https://img.shields.io/github/commit-activity/m/husy7?label=Monthly%20Commits" alt="Monthly Commits"/>
+  <img src="https://img.shields.io/github/repo-count/husy7?label=Public%20Repos" alt="Public Repos"/>
 </p>
 
 <!-- ====== 4. 展示个人项目 ====== -->
