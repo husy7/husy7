@@ -162,7 +162,7 @@
 <!-- ====== 5. 展示个人学习记录内容 ====== -->
 <h3 align="left">📚 学习笔记</h3>
 <p align="left">
-  以下是我的技术学习笔记，均收录在 <a href="https://github.com/husy7/husy-notebook">husy-notebook</a> 仓库中。
+  学习笔记，均收录在 <a href="https://github.com/husy7/husy-notebook">husy-notebook</a> 仓库中。
 </p>
 
 <table>
@@ -239,7 +239,7 @@
   参考文档：https://github.com/Platane/snk
 -->
 <!-- ====== 6. 贪吃蛇贡献图 ====== -->
-<h3 align="left">🐍 贪吃蛇贡献图</h3>
+<!-- <h3 align="left">🐍 贪吃蛇贡献图</h3> -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/husy7/husy7/output/github-contribution-grid-snake-dark.svg"/>
