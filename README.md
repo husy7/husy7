@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&width=440&height=60&lines=Welcome+to+my+GitHub;Python;PyTorch;AI+Agent;python" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&width=440&height=60&lines=Welcome;Python;PyTorch;AI+Agent;python" alt="Typing SVG" /></a>
 </p>
 
 <hr/>
