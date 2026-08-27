@@ -43,12 +43,12 @@
   数据源：GitHub 用户名 husy7
 -->
 <!-- ====== 2. 社交连接图标（使用 Shields.io 徽章） ====== -->
-<h3 align="left">🌐 找到我</h3>
+<!-- <h3 align="left">🌐 </h3>
 <p align="left">
   <a href="https://github.com/husy7" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-husy7-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
   </a>
-</p>
+</p> -->
 
 <!--
   区域3 · 语言与工具
@@ -148,85 +148,143 @@
 
 <!--
   区域6 · 展示个人学习记录内容（学习笔记 · 双栏表格布局）
-  操作：从 husy-notebook 仓库获取完整文件树，筛选出所有 .md 笔记文件，
-        按目录分类（Python / ML / DL / NLP-LLM / CV / AI-Agent / Datawhale课程），
-        为每个笔记文件生成 GitHub blob 链接（https://github.com/husy7/husy-notebook/blob/main/{path}），
-        路径中的空格用 %20 编码。排除 .gitkeep、index.md、模板文件等非笔记内容。
-        布局升级：从纵向 <ul> 列表改为双栏 table，左栏分类+笔记标题，右栏同分类继续，
-        充分利用页面横向空间，减少滚动长度。
+  操作：由 GitHub Actions 工作流 .github/workflows/update-notes.yml 每日定时运行
+        scripts/update_notes.py，跨仓库读取 husy7/husy-notebook 的 Git Trees API，
+        筛选 docs/ 下所有 .md 笔记文件，按顶级目录分类（Python / 机器学习算法 /
+        深度学习 / NLP-LLM / 计算机视觉 / AI Agent / Datawhale 课程），
+        为每个笔记生成 blob 链接（空格用 %20 编码），排除 index.md / README.md /
+        .gitkeep。生成双栏 HTML 表格写入 NOTES_START 与 NOTES_END 标记之间。
+  ⚠️ 标记区之间的内容由脚本自动覆写，请勿手动编辑。
   数据源：GitHub Git Tree API（递归获取完整文件树）
         https://api.github.com/repos/husy7/husy-notebook/git/trees/main?recursive=1
   笔记仓库：https://github.com/husy7/husy-notebook
-  分类依据：仓库 docs/ 目录的子文件夹命名（00-Index ~ 11-工具使用笔记）
+  脚本路径：scripts/update_notes.py
+  工作流：.github/workflows/update-notes.yml
 -->
 <!-- ====== 5. 展示个人学习记录内容 ====== -->
 <h3 align="left">📚 学习笔记</h3>
 <p align="left">
-  学习笔记，均收录在 <a href="https://github.com/husy7/husy-notebook">husy-notebook</a> 仓库中。
+  学习笔记，均收录在 <a href="https://github.com/husy7/husy-notebook">husy-notebook</a> 仓库中，由 Actions 每日自动同步。
 </p>
 
+<!-- NOTES_START -->
 <table>
   <tr>
     <td width="50%" valign="top">
       <strong>🐍 Python</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Language-Features/Decorators.md">Decorators（装饰器）</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Language-Features/language-features-note.md">Python 语言特性</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Concurrency/concurrency-note.md">并发编程</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints/type-hints-note.md">Type Hints（类型标注）</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Packaging/packaging-note.md">打包与分发</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Context%20Managers/python上下文管理-note.md">Python上下文管理</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Decorators/装饰器-note.md">装饰器</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/生成器和迭代器-note.md">生成器和迭代器</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/Pydantic%20v2/Pydanticv2-note.md">Pydanticv2</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/typing库/typing-note.md">Typing</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
       </ul>
       <strong>🤖 机器学习算法</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/linear-models-note.md">线性模型</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/tree-based-note.md">树模型</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/clustering-note.md">聚类算法</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/evaluation-note.md">模型评估</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/clustering-note.md">Clustering</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/evaluation-note.md">Evaluation</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/linear-models-note.md">Linear-models</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/tree-based-note.md">Tree-based</a></li>
       </ul>
-      <strong>👁️ 计算机视觉</strong>
-      <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/image-processing-note.md">图像处理</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/cnn-architectures-note.md">CNN 经典架构</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/object-detection-note.md">目标检测</a></li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
       <strong>🧠 深度学习</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/fundamentals-note.md">深度学习基础</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/pytorch-note.md">PyTorch 笔记</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/TensorFlow/tensorflow-note.md">TensorFlow 笔记</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/model-zoo-note.md">经典模型 zoo</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/fundamentals-note.md">Fundamentals</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/model-zoo-note.md">Model-zoo</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/pytorch-note.md">Pytorch</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/TensorFlow/tensorflow-note.md">Tensorflow</a></li>
       </ul>
       <strong>💬 NLP 与大语言模型</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/text-preprocessing-note.md">文本预处理</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/word-embedding-note.md">词向量</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/seq2seq-attention-note.md">Seq2Seq 与注意力机制</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM优化.md">LLM 优化技术</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/deepseek_v4笔记-note.md">DeepSeek 模型笔记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM优化.md">LLM优化</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/deepseek_v4笔记-note.md">Deepseek_v4笔记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/seq2seq-attention-note.md">Seq2seq-attention</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/text-preprocessing-note.md">Text-preprocessing</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/word-embedding-note.md">Word-embedding</a></li>
+      </ul>
+      <strong>👁️ 计算机视觉</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/cnn-architectures-note.md">Cnn-architectures</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/image-processing-note.md">Image-processing</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/object-detection-note.md">Object-detection</a></li>
       </ul>
       <strong>🤝 AI Agent</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Prompt-Engineering/prompt-engineering-note.md">Prompt Engineering</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/rag-note.md">RAG 检索增强生成</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/use-cases-note.md">Agent 应用场景</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Prompt-Engineering/prompt-engineering-note.md">Prompt-engineering</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/rag-note.md">Rag</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/use-cases-note.md">Use-cases</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架教程.md">Cordis框架教程</a></li>
       </ul>
       <strong>🎯 Datawhale Hello Agent 课程</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/环境准备与基础工具/env-and-tools-note.md">环境准备与基础工具</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">ReAct 范式</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection 反思机制</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-Solve 范式</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/小结.md">章节4 小结</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节5低代码平台/低代码agent-note.md">低代码 Agent 平台</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/AgentScope/agentscope-note.md">AgentScope 框架</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/AutoGen/autogen-note.md">AutoGen 框架</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/CAMEL/camel-note.md">CAMEL 框架</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/小结.md">小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/环境准备与基础工具/env-and-tools-note.md">Env-and-tools</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节5低代码平台/低代码agent-note.md">低代码agent</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/AgentScope/agentscope-note.md">Agentscope</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/AutoGen/autogen-note.md">Autogen</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/CAMEL/camel-note.md">Camel</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/LangGraph/langgraph-note.md">Langgraph</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/agent框架简介.md">Agent框架简介</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/框架对比与选型/framework-comparison-note.md">Framework-comparison</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节6Frameworks开发/章节6核心代码速记.md">章节6核心代码速记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节7myAgent构建/hello-agents框架构建.md">Hello-agents框架构建</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节7myAgent构建/章节7代码速记笔记.md">章节7代码速记笔记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节8记忆与检索/Memory/memory-system-note.md">Memory-system</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节8记忆与检索/RAG/rag-system-note.md">Rag-system</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节8记忆与检索/pdf_reader_as/项目代码总结.md">项目代码总结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节8记忆与检索/qa-assistant-note.md">Qa-assistant</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节8记忆与检索/小结.md">小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节9上下文工程/上下文工程-note.md">上下文工程</a></li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <strong>📂 Algorithms-DSA</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/DP-Greedy/dp-greedy-note.md">Dp-greedy</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Graph/graph-note.md">Graph</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Searching/searching-note.md">Searching</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Sorting/sorting-note.md">Sorting</a></li>
+      </ul>
+      <strong>📂 CS-Foundation</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Database/database-note.md">Database</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Network/network-note.md">Network</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/os-note.md">Os</a></li>
+      </ul>
+      <strong>📂 MLOps-Deployment</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Docker-K8s/docker-k8s-note.md">Docker-k8s</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/FastAPI-Serving/fastapi-serving-note.md">Fastapi-serving</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/ONNX-Conversion/onnx-conversion-note.md">Onnx-conversion</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
+      </ul>
+      <strong>📂 leetcode</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/121.%20买卖股票的最佳时机.md">121. 买卖股票的最佳时机</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/122.%20买卖股票的最佳时机%20II.md">122. 买卖股票的最佳时机 II</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/238.%20除了自身以外数组的乘积.md">238. 除了自身以外数组的乘积</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/274.%20H%20指数.md">274. H 指数</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/380.%20O(1)%20时间插入、删除和获取随机元素.md">380. O(1) 时间插入、删除和获取随机元素</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/45.%20跳跃游戏%20II.md">45. 跳跃游戏 II</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/55.%20跳跃游戏.md">55. 跳跃游戏</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/双指针/双指针-note.md">双指针</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/翻转类题目.md">翻转类题目</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/贪心算法/Boyer-Moore%20投票算法.md">Boyer-Moore 投票算法</a></li>
+      </ul>
+      <strong>📂 工具使用笔记</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/docker/docker-note.md">Docker</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/qdrant/qdrant-note.md">Qdrant</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/wsl2手册.md">Wsl2手册</a></li>
       </ul>
     </td>
   </tr>
 </table>
+<!-- NOTES_END -->
+
 
 <!--
   区域7 · 贪吃蛇贡献图（Snake Contribution Animation）
