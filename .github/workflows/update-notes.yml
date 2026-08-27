@@ -1,0 +1,49 @@
+# 自动更新主页 README 中的「学习笔记」区块
+# 每日定时（北京时间 8 点）运行 scripts/update_notes.py，
+# 跨仓库读取 husy7/husy-notebook 的文件树，刷新 <!-- NOTES_START --> … <!-- NOTES_END --> 之间的内容。
+# 与 snake.yml 保持一致的提交约定（github-actions[bot]）。
+name: Update Learning Notes in README
+
+on:
+  schedule:
+    # 每天 UTC 0 点（北京时间 8 点）自动运行
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_notes.py"
+      - ".github/workflows/update-notes.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-notes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_notes.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "docs: auto-update learning notes" && git push)
+
+      - name: Create workflow summary
+        run: echo "✅ Learning notes updated" >> $GITHUB_STEP_SUMMARY
