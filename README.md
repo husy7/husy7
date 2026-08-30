@@ -182,31 +182,35 @@
       </ul>
       <strong>🤖 机器学习算法</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/clustering-note.md">Clustering</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/evaluation-note.md">Evaluation</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/linear-models-note.md">Linear-models</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/tree-based-note.md">Tree-based</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/聚类算法.md">聚类算法</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/模型评估与验证.md">模型评估与验证</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/线性回归与逻辑回归.md">线性回归与逻辑回归</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/树模型到梯度提升.md">树模型到梯度提升</a></li>
       </ul>
       <strong>🧠 深度学习</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/fundamentals-note.md">Fundamentals</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/model-zoo-note.md">Model-zoo</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/pytorch-note.md">Pytorch</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/TensorFlow/tensorflow-note.md">Tensorflow</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/优化器对比.md">优化器对比</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/反向传播与激活函数.md">反向传播与激活函数</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/ResNet残差网络拆解.md">ResNet残差网络拆解</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/Transformer结构拆解.md">Transformer结构拆解</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/PyTorch-Tensor与Autograd.md">PyTorch-Tensor与Autograd</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/训练循环模板.md">训练循环模板</a></li>
       </ul>
       <strong>💬 NLP 与大语言模型</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM优化.md">LLM优化</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM微调SFT与LoRA.md">LLM微调SFT与LoRA</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM推理与KV-Cache.md">LLM推理与KV-Cache</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/deepseek_v4笔记-note.md">Deepseek_v4笔记</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/seq2seq-attention-note.md">Seq2seq-attention</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/text-preprocessing-note.md">Text-preprocessing</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/word-embedding-note.md">Word-embedding</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/注意力机制与Self-Attention.md">注意力机制与Self-Attention</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/文本预处理与Tokenizer.md">文本预处理与Tokenizer</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
       <strong>👁️ 计算机视觉</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/cnn-architectures-note.md">Cnn-architectures</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/image-processing-note.md">Image-processing</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/object-detection-note.md">Object-detection</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/图像处理与数据增广.md">图像处理与数据增广</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/目标检测与YOLO.md">目标检测与YOLO</a></li>
       </ul>
       <strong>🤝 AI Agent</strong>
       <ul>
@@ -217,6 +221,7 @@
       </ul>
       <strong>🎯 Datawhale Hello Agent 课程</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/agent通信协议-note.md">Agent通信协议</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
@@ -256,7 +261,6 @@
       </ul>
       <strong>📂 MLOps-Deployment</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Docker-K8s/docker-k8s-note.md">Docker-k8s</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/FastAPI-Serving/fastapi-serving-note.md">Fastapi-serving</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/ONNX-Conversion/onnx-conversion-note.md">Onnx-conversion</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
