@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
- <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Welcome+to+my+GitHub+homepage;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84GitHub%E4%B8%BB%E9%A1%B5" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=+++++++Welcome+to+my+GitHub+homepage;+%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84GitHub%E4%B8%BB%E9%A1%B5" alt="Typing SVG" /></a>
 </p>
 
 <hr/>
@@ -147,13 +147,13 @@
 </p>
 
 <!--
-  区域6 · 展示个人学习记录内容（学习笔记 · 双栏表格布局）
+  区域6 · 展示个人学习记录内容（学习笔记 · 三栏表格布局）
   操作：由 GitHub Actions 工作流 .github/workflows/update-notes.yml 每日定时运行
         scripts/update_notes.py，跨仓库读取 husy7/husy-notebook 的 Git Trees API，
         筛选 docs/ 下所有 .md 笔记文件，按顶级目录分类（Python / 机器学习算法 /
         深度学习 / NLP-LLM / 计算机视觉 / AI Agent / Datawhale 课程），
         为每个笔记生成 blob 链接（空格用 %20 编码），排除 index.md / README.md /
-        .gitkeep。生成双栏 HTML 表格写入 NOTES_START 与 NOTES_END 标记之间。
+        .gitkeep。生成三栏 HTML 表格写入 NOTES_START 与 NOTES_END 标记之间。
   ⚠️ 标记区之间的内容由脚本自动覆写，请勿手动编辑。
   数据源：GitHub Git Tree API（递归获取完整文件树）
         https://api.github.com/repos/husy7/husy-notebook/git/trees/main?recursive=1
@@ -170,7 +170,7 @@
 <!-- NOTES_START -->
 <table>
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <strong>🐍 Python</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Context%20Managers/python上下文管理-note.md">Python上下文管理</a></li>
@@ -206,6 +206,8 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/文本预处理与Tokenizer.md">文本预处理与Tokenizer</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
+    </td>
+    <td width="33%" valign="top">
       <strong>👁️ 计算机视觉</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
@@ -242,7 +244,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节9上下文工程/上下文工程-note.md">上下文工程</a></li>
       </ul>
     </td>
-    <td width="50%" valign="top">
+    <td width="34%" valign="top">
       <strong>📂 MLOps-Deployment</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>

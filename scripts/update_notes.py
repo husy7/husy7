@@ -11,7 +11,7 @@
     3. 按 docs/ 的顶级子目录（如 01-Python、02-ML-Algorithms …）分类；
        特别地，把 06-AI-Agents/datawhale_hello_agent课程 单独拆为一个分类，
        与手动维护时的结构保持一致。
-    4. 生成双栏 HTML 表格（与 README 其余区块风格统一），写入
+    4. 生成三栏 HTML 表格（与 README 其余区块风格统一），写入
        <!-- NOTES_START --> … <!-- NOTES_END --> 标记之间。
 
 鉴权：
@@ -150,9 +150,9 @@ def make_display_name(path):
     return name
 
 
-# ====== 3. 生成双栏 HTML 表格 ======
+# ====== 3. 生成三栏 HTML 表格 ======
 def generate_html_table(notes):
-    """按分类生成双栏 HTML 表格，左右两栏按笔记总数大致均衡。"""
+    """按分类生成三栏 HTML 表格，三栏按笔记总数大致均衡。"""
     # 固定分类顺序：已知顺序 + 未知分类按字典序追加
     ordered = []
     for v in CATEGORY_MAP.values():
@@ -168,12 +168,17 @@ def generate_html_table(notes):
             ordered.append(k)
 
     total = sum(len(notes[c]) for c in ordered)
-    half = total / 2.0
+    third = total / 3.0
 
-    left, right = [], []
+    col1, col2, col3 = [], [], []
     running = 0
     for cat in ordered:
-        target = left if running < half else right
+        if running < third:
+            target = col1
+        elif running < third * 2:
+            target = col2
+        else:
+            target = col3
         target.append(cat)
         running += len(notes[cat])
 
@@ -190,11 +195,14 @@ def generate_html_table(notes):
     return (
         "<table>\n"
         "  <tr>\n"
-        '    <td width="50%" valign="top">\n'
-        f"{render_column(left)}\n"
+        '    <td width="33%" valign="top">\n'
+        f"{render_column(col1)}\n"
         "    </td>\n"
-        '    <td width="50%" valign="top">\n'
-        f"{render_column(right)}\n"
+        '    <td width="33%" valign="top">\n'
+        f"{render_column(col2)}\n"
+        "    </td>\n"
+        '    <td width="34%" valign="top">\n'
+        f"{render_column(col3)}\n"
         "    </td>\n"
         "  </tr>\n"
         "</table>"
