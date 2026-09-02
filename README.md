@@ -214,10 +214,7 @@
       </ul>
       <strong>🤝 AI Agent</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Prompt-Engineering/prompt-engineering-note.md">Prompt-engineering</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/rag-note.md">Rag</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/use-cases-note.md">Use-cases</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架教程.md">Cordis框架教程</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架.md">Cordis框架</a></li>
       </ul>
       <strong>🎯 Datawhale Hello Agent 课程</strong>
       <ul>
@@ -246,23 +243,8 @@
       </ul>
     </td>
     <td width="50%" valign="top">
-      <strong>📂 Algorithms-DSA</strong>
-      <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/DP-Greedy/dp-greedy-note.md">Dp-greedy</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Graph/graph-note.md">Graph</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Searching/searching-note.md">Searching</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Sorting/sorting-note.md">Sorting</a></li>
-      </ul>
-      <strong>📂 CS-Foundation</strong>
-      <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Database/database-note.md">Database</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Network/network-note.md">Network</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/os-note.md">Os</a></li>
-      </ul>
       <strong>📂 MLOps-Deployment</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/FastAPI-Serving/fastapi-serving-note.md">Fastapi-serving</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/ONNX-Conversion/onnx-conversion-note.md">Onnx-conversion</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
       </ul>
       <strong>📂 leetcode</strong>
@@ -281,6 +263,7 @@
       <strong>📂 工具使用笔记</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/docker/docker-note.md">Docker</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/docker/docker常用指令.md">Docker常用指令</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/qdrant/qdrant-note.md">Qdrant</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/wsl2手册.md">Wsl2手册</a></li>
       </ul>
