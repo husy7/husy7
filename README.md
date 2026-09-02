@@ -178,6 +178,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/生成器和迭代器-note.md">生成器和迭代器</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/Pydantic%20v2/Pydanticv2-note.md">Pydanticv2</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/typing库/typing-note.md">Typing</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/functools/functools-note.md">Functools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
       </ul>
       <strong>🤖 机器学习算法</strong>
@@ -220,7 +221,10 @@
       </ul>
       <strong>🎯 Datawhale Hello Agent 课程</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/a2a/a2a-note.md">A2a</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/agent通信协议-note.md">Agent通信协议</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/anp/anp-note.md">Anp</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/mcp/mcp-note.md">Mcp</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
@@ -247,7 +251,7 @@
     <td width="34%" valign="top">
       <strong>📂 MLOps-Deployment</strong>
       <ul>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/07-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/12-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
       </ul>
       <strong>📂 leetcode</strong>
       <ul>
