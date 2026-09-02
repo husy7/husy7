@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&width=440&height=60&lines=Welcome;Python;PyTorch;AI+Agent;python" alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&center=true&width=440&height=60&lines=Welcome;来到我的主页" alt="Typing SVG" /></a>
 </p>
 
 <hr/>
@@ -28,7 +28,7 @@
 <!-- ====== 1. 个人简介区 ====== -->
 <h3 align="left">👋 关于我</h3>
 <p align="left">
-  - 🔭 目前正在学习 <strong>AIagent</strong>（大模型应用）<br>
+  - 🔭 目前正在学习 <strong>AIagent</strong><br>
   - 🌱 最近主要学习 <strong>PyTorch</strong><br>
   - 💬 欢迎与我讨论：Python、Java、Docker、PostgreSQL、TypeScript<br>
   - 📫 如何联系我：<a href="https://github.com/husy7">在 GitHub 上给我留言</a><br>
