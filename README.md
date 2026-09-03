@@ -175,36 +175,66 @@
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Context%20Managers/python上下文管理-note.md">Python上下文管理</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Decorators/装饰器-note.md">装饰器</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/generators/生成器-note.md">生成器</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/iterators/迭代器-note.md">迭代器</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/生成器和迭代器-note.md">生成器和迭代器</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/Pydantic%20v2/Pydanticv2-note.md">Pydanticv2</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/typing库/typing-note.md">Typing</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/functools/functools-note.md">Functools</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/itertools/itertools-note.md">Itertools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
       </ul>
       <strong>🤖 机器学习算法</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/DBSCAN-note.md">DBSCAN</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/K-Means-note.md">K-Means</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/层次聚类与GMM-note.md">层次聚类与GMM</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Clustering/聚类算法.md">聚类算法</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/交叉验证与数据泄漏-note.md">交叉验证与数据泄漏</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/分类指标与混淆矩阵-note.md">分类指标与混淆矩阵</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/回归指标-note.md">回归指标</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Evaluation/模型评估与验证.md">模型评估与验证</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/梯度下降与SGD-note.md">梯度下降与SGD</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/正则化Ridge与Lasso-note.md">正则化Ridge与Lasso</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Linear-Models/线性回归与逻辑回归.md">线性回归与逻辑回归</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/GBDT与XGBoost-note.md">GBDT与XGBoost</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/决策树与划分准则-note.md">决策树与划分准则</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/树模型到梯度提升.md">树模型到梯度提升</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/02-ML-Algorithms/Tree-Based/随机森林-note.md">随机森林</a></li>
       </ul>
       <strong>🧠 深度学习</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/优化器对比.md">优化器对比</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/反向传播与激活函数.md">反向传播与激活函数</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/学习率调度与warmup-note.md">学习率调度与warmup</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/梯度消失与爆炸-note.md">梯度消失与爆炸</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Fundamentals/激活函数对比-note.md">激活函数对比</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/LeNet到VGG轴线-note.md">LeNet到VGG轴线</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/ResNet残差网络拆解.md">ResNet残差网络拆解</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/Model-Zoo/Transformer结构拆解.md">Transformer结构拆解</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/Dataset与DataLoader-note.md">Dataset与DataLoader</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/PyTorch-Tensor与Autograd.md">PyTorch-Tensor与Autograd</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/Tensor基础与数据类型-note.md">Tensor基础与数据类型</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/PyTorch/训练循环模板.md">训练循环模板</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/03-DeepLearning/TensorFlow/Keras快速上手-note.md">Keras快速上手</a></li>
       </ul>
       <strong>💬 NLP 与大语言模型</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/GRPO与偏好优化-note.md">GRPO与偏好优化</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM优化.md">LLM优化</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM微调SFT与LoRA.md">LLM微调SFT与LoRA</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM推理与KV-Cache.md">LLM推理与KV-Cache</a></li>
-        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/deepseek_v4笔记-note.md">Deepseek_v4笔记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/常用模型笔记/deepseek_v4笔记-note.md">Deepseek_v4笔记</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/提示学习与上下文学习-note.md">提示学习与上下文学习</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/模型微调/GRPO-note.md">GRPO</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/模型微调/SFT-note.md">SFT</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/量化与推理加速-note.md">量化与推理加速</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/Bahdanau注意力-note.md">Bahdanau注意力</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/RNN与LSTM-note.md">RNN与LSTM</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Seq2Seq-Attention/注意力机制与Self-Attention.md">注意力机制与Self-Attention</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/BPE与子词分词-note.md">BPE与子词分词</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Text-Preprocessing/文本预处理与Tokenizer.md">文本预处理与Tokenizer</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/Word2Vec-CBOW与Skipgram-note.md">Word2Vec-CBOW与Skipgram</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
     </td>
@@ -212,7 +242,13 @@
       <strong>👁️ 计算机视觉</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/ViT视觉Transformer-note.md">ViT视觉Transformer</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/卷积与池化直觉-note.md">卷积与池化直觉</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/图像增广方法-note.md">图像增广方法</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Image-Processing/图像处理与数据增广.md">图像处理与数据增广</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/NMS与mAP评测-note.md">NMS与mAP评测</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/R-CNN两阶段系列-note.md">R-CNN两阶段系列</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/YOLO单阶段系列-note.md">YOLO单阶段系列</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/目标检测与YOLO.md">目标检测与YOLO</a></li>
       </ul>
       <strong>🤝 AI Agent</strong>
@@ -225,6 +261,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/agent通信协议-note.md">Agent通信协议</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/anp/anp-note.md">Anp</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/mcp/mcp-note.md">Mcp</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节11Agentic-RL/agenticRL-note.md">AgenticRL</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
@@ -249,6 +286,29 @@
       </ul>
     </td>
     <td width="34%" valign="top">
+      <strong>📂 Algorithms-DSA</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/DP-Greedy/0-1背包-note.md">0-1背包</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Graph/BFS与DFS-note.md">BFS与DFS</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Graph/并查集-note.md">并查集</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Searching/二分查找-note.md">二分查找</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Searching/哈希表-note.md">哈希表</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Sorting/堆排序与优先队列-note.md">堆排序与优先队列</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Sorting/归并排序-note.md">归并排序</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/08-Algorithms-DSA/Sorting/快速排序-note.md">快速排序</a></li>
+      </ul>
+      <strong>📂 CS-Foundation</strong>
+      <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Database/事务与隔离级别-note.md">事务与隔离级别</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Database/向量数据库-note.md">向量数据库</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Database/索引原理与B+树-note.md">索引原理与B+树</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Network/HTTP与HTTPS-note.md">HTTP与HTTPS</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/Network/TCP与IP基础-note.md">TCP与IP基础</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/GIL与Python并发-note.md">GIL与Python并发</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/IO模型-note.md">IO模型</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/内存管理-note.md">内存管理</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/09-CS-Foundation/OS/进程线程与协程-note.md">进程线程与协程</a></li>
+      </ul>
       <strong>📂 MLOps-Deployment</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/12-MLOps-Deployment/Triton-Server/triton-server-note.md">Triton-server</a></li>
