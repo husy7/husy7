@@ -183,6 +183,8 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/functools/functools-note.md">Functools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/itertools/itertools-note.md">Itertools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv简介-note.md">Uv简介</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv虚拟环境介绍-note.md">Uv虚拟环境介绍</a></li>
       </ul>
       <strong>🤖 机器学习算法</strong>
       <ul>
@@ -262,6 +264,17 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/anp/anp-note.md">Anp</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节10智能体通信协议/mcp/mcp-note.md">Mcp</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节11Agentic-RL/agenticRL-note.md">AgenticRL</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节11Agentic-RL/agenticRL章节小结-note.md">AgenticRL章节小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节12智能体评估/BFCL评估-note.md">BFCL评估</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节12智能体评估/GAIA评估-note.md">GAIA评估</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节12智能体评估/数据生成质量评估-note.md">数据生成质量评估</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节12智能体评估/智能体评估章节小结-note.md">智能体评估章节小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/0.项目开发顺序.md">0.项目开发顺序</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/1.数据模型定义讲解.md">1.数据模型定义讲解</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/2.实现服务层.md">2.实现服务层</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/3.实现智能体.md">3.实现智能体</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/4.实现api路由.md">4.实现api路由</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/章节13项目设计思路-note.md">章节13项目设计思路</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
