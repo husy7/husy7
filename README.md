@@ -126,24 +126,32 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor">Smart-Document-Q-A-Assistant</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td width="60%" valign="top">智能文档问答助手重构版，基于 Datawhale Hello Agent 第8章</td>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/TripAgent_base_by_helloagent">TripAgent_base_by_helloagent</a></strong><br/><img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"/></td>
+    <td width="60%" valign="top">智能旅行助手agent</td>
   </tr>
   <tr>
-    <td valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td valign="top">基于本地 GLM-OCR 的剪贴板图片识别工具，将截图直接转为 Markdown 格式内容</td>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
+    <td width="60%" valign="top">暂无描述</td>
   </tr>
   <tr>
-    <td valign="top"><strong><a href="https://github.com/husy7/NotionAILearningMentor">NotionAILearningMentor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td valign="top">Notion AI 学习助手，帮助整理和规划学习路径</td>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor">Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">hello agent第8章智能文档问答助手修改版本</td>
   </tr>
   <tr>
-    <td valign="top"><strong><a href="https://github.com/husy7/car_parking_fee">car_parking_fee</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td valign="top">停车费用计算系统</td>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/skill-es-search">skill-es-search</a></strong><br/><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"/></td>
+    <td width="60%" valign="top">暂无描述</td>
   </tr>
   <tr>
-    <td valign="top"><strong><a href="https://github.com/husy7/skill-es-search">skill-es-search</a></strong><br/><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"/></td>
-    <td valign="top">Everything 搜索工具的命令行封装技能</td>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">基于本地glm-ocr的粘贴板图片内容识别，返回markdowm格式的内容</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/NotionAILearningMentor">NotionAILearningMentor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">暂无描述</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/car_parking_fee">car_parking_fee</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">暂无描述</td>
   </tr>
 </table>
 <!-- PROJECTS_END -->
