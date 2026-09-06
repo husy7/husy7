@@ -1,0 +1,49 @@
+# 自动更新主页 README 中的「我的项目」区块
+# 每日定时（北京时间 8 点）运行 scripts/update_projects.py，
+# 调用 GitHub API 获取最新仓库列表，刷新 <!-- PROJECTS_START --> … <!-- PROJECTS_END --> 之间的内容。
+# 与 update-notes.yml 保持一致的提交约定（github-actions[bot]）。
+name: Update Projects in README
+
+on:
+  schedule:
+    # 每天 UTC 0 点（北京时间 8 点）自动运行
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "scripts/update_projects.py"
+      - ".github/workflows/update-projects.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-projects:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Run update script
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/update_projects.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "docs: auto-update projects" && git push)
+
+      - name: Create workflow summary
+        run: echo "✅ Projects updated" >> $GITHUB_STEP_SUMMARY

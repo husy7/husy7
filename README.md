@@ -108,17 +108,22 @@
 
 <!--
   区域5 · 展示个人项目（双栏表格布局）
-  操作：原模板使用 "项目1/2/3" 假占位符，已替换为 GitHub API 返回的真实仓库。
-        获取方式：调用 GitHub REST API 查询用户公开仓库列表，按更新时间倒序。
-        筛选条件：排除 profile README 仓库 husy7/husy7，保留其余 5 个项目仓库，
-        依据仓库 description 和 language 字段编写中文描述。
-        布局升级：从 <ul> 列表改为双栏 HTML table，左栏项目名+语言 badge，右栏描述。
-  数据源：https://api.github.com/users/husy7/repos?sort=updated&per_page=10
+  操作：由 GitHub Actions 工作流 .github/workflows/update-projects.yml 每日定时运行
+        scripts/update_projects.py，调用 GitHub REST API 获取用户公开仓库列表（按更新时间倒序），
+        排除 fork 仓库和 profile README 仓库（husy7/husy7），取前 10 个项目，
+        为每个项目生成名称链接 + 语言 badge + 描述的双栏 HTML 表格，
+        写入 PROJECTS_START 与 PROJECTS_END 标记之间。
+  ⚠️ 标记区之间的内容由脚本自动覆写，请勿手动编辑。
+  数据源：GitHub REST API
+        https://api.github.com/users/husy7/repos?sort=updated&per_page=30&type=owner
+  脚本路径：scripts/update_projects.py
+  工作流：.github/workflows/update-projects.yml
   配色：语言 badge 使用 shields.io style=flat-square，统一深色系
 -->
 <!-- ====== 4. 展示个人项目 ====== -->
 <h3 align="left">📂 我的项目</h3>
 
+<!-- PROJECTS_START -->
 <table>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor">Smart-Document-Q-A-Assistant</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
@@ -141,6 +146,7 @@
     <td valign="top">Everything 搜索工具的命令行封装技能</td>
   </tr>
 </table>
+<!-- PROJECTS_END -->
 
 <p align="left">
   更多项目请查看我的 <a href="https://github.com/husy7?tab=repositories">Repositories</a>。
