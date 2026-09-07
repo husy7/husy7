@@ -126,24 +126,24 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">基于本地LLM:glm-ocr的粘贴板图片内容识别，返回markdowm格式的内容</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/skill-es-search">skill-es-search</a></strong><br/><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"/></td>
+    <td width="60%" valign="top">基于everything的快速计算机文件搜索的ai skill</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
+    <td width="60%" valign="top">个人笔记内容</td>
+  </tr>
+  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/TripAgent_base_by_helloagent">TripAgent_base_by_helloagent</a></strong><br/><img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"/></td>
     <td width="60%" valign="top">智能旅行助手agent</td>
   </tr>
   <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
-    <td width="60%" valign="top">暂无描述</td>
-  </tr>
-  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor">Smart-Document-Q-A-Assistant---datawhale_hello_agent_chat8_Refactor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">hello agent第8章智能文档问答助手修改版本</td>
-  </tr>
-  <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/skill-es-search">skill-es-search</a></strong><br/><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"/></td>
-    <td width="60%" valign="top">暂无描述</td>
-  </tr>
-  <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td width="60%" valign="top">基于本地glm-ocr的粘贴板图片内容识别，返回markdowm格式的内容</td>
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/NotionAILearningMentor">NotionAILearningMentor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
