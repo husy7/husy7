@@ -126,6 +126,10 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/dochive">dochive</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">本地/离线企业文档问答（RAG + LangGraph + Qdrant + Ollama）：检索层权限过滤 + 脱敏，文档数据不出本机。</td>
+  </tr>
+  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">基于本地LLM:glm-ocr的粘贴板图片内容识别，返回markdowm格式的内容</td>
   </tr>
