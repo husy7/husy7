@@ -126,6 +126,10 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
+    <td width="60%" valign="top">个人笔记内容</td>
+  </tr>
+  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/dochive">dochive</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">本地/离线企业文档问答（RAG + LangGraph + Qdrant + Ollama）：检索层权限过滤 + 脱敏，文档数据不出本机。</td>
   </tr>
@@ -136,10 +140,6 @@
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/skill-es-search">skill-es-search</a></strong><br/><img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Shell"/></td>
     <td width="60%" valign="top">基于everything的快速计算机文件搜索的ai skill</td>
-  </tr>
-  <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
-    <td width="60%" valign="top">个人笔记内容</td>
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/TripAgent_base_by_helloagent">TripAgent_base_by_helloagent</a></strong><br/><img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"/></td>
