@@ -203,6 +203,10 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv简介-note.md">Uv简介</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv虚拟环境介绍-note.md">Uv虚拟环境介绍</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/agent必备-note.md">Agent必备</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/fastapi必备-note.md">Fastapi必备</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/langgraph必备-note.md">Langgraph必备</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/llm调用必备-note.md">Llm调用必备</a></li>
       </ul>
       <strong>🤖 机器学习算法</strong>
       <ul>
@@ -244,6 +248,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM优化.md">LLM优化</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM微调SFT与LoRA.md">LLM微调SFT与LoRA</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/LLM推理与KV-Cache.md">LLM推理与KV-Cache</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/常用模型笔记/DeepSeek%20V4.1%20Flash%20的%20MoE%20架构与%20CSA2-note.md">DeepSeek V4.1 Flash 的 MoE 架构与 CSA2</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/常用模型笔记/deepseek_v4笔记-note.md">Deepseek_v4笔记</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/提示学习与上下文学习-note.md">提示学习与上下文学习</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/LLM/模型微调/GRPO-note.md">GRPO</a></li>
@@ -273,7 +278,16 @@
       </ul>
       <strong>🤝 AI Agent</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/react天气调用prompt.md">React天气调用prompt</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架.md">Cordis框架</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/1.从零ReAct_agent-note.md">1.从零ReAct_agent</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/2.langgraph组件.md">2.langgraph组件</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/3.代理搜索.md">3.代理搜索</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/4.持久化与流式输出.md">4.持久化与流式输出</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/5.人参与流程.md">5.人参与流程</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/6.案例论文写手.md">6.案例论文写手</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/7.langgraph相关资料.md">7.langgraph相关资料</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/langgraph简介-note.md">Langgraph简介</a></li>
       </ul>
       <strong>🎯 Datawhale Hello Agent 课程</strong>
       <ul>
@@ -293,6 +307,21 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/3.实现智能体.md">3.实现智能体</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/4.实现api路由.md">4.实现api路由</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节13智能旅行助手/章节13项目设计思路-note.md">章节13项目设计思路</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节1初识智能体/什么是智能体-note.md">什么是智能体</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节1初识智能体/协作模式与Workflow对比-note.md">协作模式与Workflow对比</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节1初识智能体/智能体构成与运行原理-note.md">智能体构成与运行原理</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节1初识智能体/本章小结-note.md">本章小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节1初识智能体/第一个智能体实战-note.md">第一个智能体实战</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节2智能体发展史/ELIZA规则聊天机器人-note.md">ELIZA规则聊天机器人</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节2智能体发展史/学习范式演进-note.md">学习范式演进</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节2智能体发展史/心智社会-note.md">心智社会</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节2智能体发展史/本章小结-note.md">本章小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节2智能体发展史/符号主义智能体-note.md">符号主义智能体</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节3大语言模型基础/Transformer架构-note.md">Transformer架构</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节3大语言模型基础/提示工程与分词-note.md">提示工程与分词</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节3大语言模型基础/本章小结-note.md">本章小结</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节3大语言模型基础/缩放法则与幻觉-note.md">缩放法则与幻觉</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节3大语言模型基础/调用开源大模型-note.md">调用开源大模型</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Plan-and-Solve/plan-and-solve-note.md">Plan-and-solve</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/ReAct/react-note.md">React</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/datawhale_hello_agent课程/章节4经典范式构建/Reflection%20机制/reflection-note.md">Reflection</a></li>
@@ -348,6 +377,8 @@
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/121.%20买卖股票的最佳时机.md">121. 买卖股票的最佳时机</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/122.%20买卖股票的最佳时机%20II.md">122. 买卖股票的最佳时机 II</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/125.%20验证回文串.md">125. 验证回文串</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/134.%20加油站.md">134. 加油站</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/238.%20除了自身以外数组的乘积.md">238. 除了自身以外数组的乘积</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/274.%20H%20指数.md">274. H 指数</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/10-leetcode/380.%20O(1)%20时间插入、删除和获取随机元素.md">380. O(1) 时间插入、删除和获取随机元素</a></li>
