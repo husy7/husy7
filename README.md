@@ -278,8 +278,10 @@
       </ul>
       <strong>🤝 AI Agent</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/rag常用代码-note.md">Rag常用代码</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/react天气调用prompt.md">React天气调用prompt</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架.md">Cordis框架</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/function_calling/tool-json-schema.md">Tool-json-schema</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/1.从零ReAct_agent-note.md">1.从零ReAct_agent</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/2.langgraph组件.md">2.langgraph组件</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/框架/dl.ai--langgraph课程/3.代理搜索.md">3.代理搜索</a></li>
