@@ -202,6 +202,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Generators%20&%20Iterators/生成器和迭代器-note.md">生成器和迭代器</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/Pydantic%20v2/Pydanticv2-note.md">Pydanticv2</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/Type-Hints&Pydantic/typing库/typing-note.md">Typing</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/fastapi/fastapi基础要求.md">Fastapi基础要求</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/functools/functools-note.md">Functools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/itertools/itertools-note.md">Itertools</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
@@ -266,8 +267,6 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/Word2Vec-CBOW与Skipgram-note.md">Word2Vec-CBOW与Skipgram</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
-    </td>
-    <td width="33%" valign="top">
       <strong>👁️ 计算机视觉</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
@@ -280,8 +279,29 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/YOLO单阶段系列-note.md">YOLO单阶段系列</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/目标检测与YOLO.md">目标检测与YOLO</a></li>
       </ul>
+    </td>
+    <td width="33%" valign="top">
       <strong>🤝 AI Agent</strong>
       <ul>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/内容说明.md">内容说明</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节1/1.1_A_I_rag简介-note.md">1.1_A_I_rag简介</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节2数据准备/2.1_A_I_rag数据加载.md">2.1_A_I_rag数据加载</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节2数据准备/2.2_A_I_rag文本切开.md">2.2_A_I_rag文本切开</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节3/3.1_A_I_rag向量嵌入.md">3.1_A_I_rag向量嵌入</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节3/3.2_A_I_rag多态嵌入.md">3.2_A_I_rag多态嵌入</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节3/3.3_A_I_rag向量数据库.md">3.3_A_I_rag向量数据库</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节3/3.4_A_I_ragMilvus.md">3.4_A_I_ragMilvus</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节3/3.5_A_I_rag索引优化.md">3.5_A_I_rag索引优化</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节4%20检索/4.1_A_I_rag混合检索.md">4.1_A_I_rag混合检索</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节4%20检索/4.2_A_I_rag查询构建.md">4.2_A_I_rag查询构建</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节4%20检索/4.3_A_I_ragtext2sql.md">4.3_A_I_ragtext2sql</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节4%20检索/4.4_A_I_rag查询重构.md">4.4_A_I_rag查询重构</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节4%20检索/4.5_A_I_rag检索进阶.md">4.5_A_I_rag检索进阶</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节5%20生成集成/5.1_A_I_rag格式生成.md">5.1_A_I_rag格式生成</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节6%20rag评估/6.1_A_I_rag评估介绍.md">6.1_A_I_rag评估介绍</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节6%20rag评估/6.2_A_I_rag评估常用工具.md">6.2_A_I_rag评估常用工具</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节7/7.1_A_I_rag知识图谱rag.md">7.1_A_I_rag知识图谱rag</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/章节7/7.2_A_I_rag%20Agentic%20rag.md">7.2_A_I_rag Agentic rag</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/rag常用代码-note.md">Rag常用代码</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/Use-Cases/react天气调用prompt.md">React天气调用prompt</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/dsh_Cordis框架/cordis框架.md">Cordis框架</a></li>
