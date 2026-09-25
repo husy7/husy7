@@ -208,6 +208,7 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/functools%20&%20itertools/函数式编程工具-note.md">函数式编程工具</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv简介-note.md">Uv简介</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/uv/uv虚拟环境介绍-note.md">Uv虚拟环境介绍</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/基础内容/python-常用标准库.md">Python-常用标准库</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/agent必备-note.md">Agent必备</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/fastapi必备-note.md">Fastapi必备</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/01-Python/必备代码和知识点/langgraph必备-note.md">Langgraph必备</a></li>
@@ -267,6 +268,8 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/Word2Vec-CBOW与Skipgram-note.md">Word2Vec-CBOW与Skipgram</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
+    </td>
+    <td width="33%" valign="top">
       <strong>👁️ 计算机视觉</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
@@ -279,8 +282,6 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/YOLO单阶段系列-note.md">YOLO单阶段系列</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/目标检测与YOLO.md">目标检测与YOLO</a></li>
       </ul>
-    </td>
-    <td width="33%" valign="top">
       <strong>🤝 AI Agent</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/内容说明.md">内容说明</a></li>
