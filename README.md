@@ -126,16 +126,20 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/-The-New-SDLC-With-Vibe-Coding--zh-">-The-New-SDLC-With-Vibe-Coding--zh-</a></strong><br/><img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML"/></td>
+    <td width="60%" valign="top">氛围编程时代的全新SDLC-中文版-html、md格式</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/dochive">dochive</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">本地/离线企业文档问答（RAG + LangGraph + Qdrant + Ollama）：检索层权限过滤 + 脱敏，文档数据不出本机。</td>
+  </tr>
+  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
     <td width="60%" valign="top">个人笔记内容</td>
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/mem_agent">mem_agent</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">可用工具、记忆的agnet</td>
-  </tr>
-  <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/dochive">dochive</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td width="60%" valign="top">本地/离线企业文档问答（RAG + LangGraph + Qdrant + Ollama）：检索层权限过滤 + 脱敏，文档数据不出本机。</td>
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/Snap2MD">Snap2MD</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
