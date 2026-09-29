@@ -272,8 +272,6 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/Word2Vec-CBOW与Skipgram-note.md">Word2Vec-CBOW与Skipgram</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/04-NLP-LLM/Word-Embedding/词嵌入与Word2Vec.md">词嵌入与Word2Vec</a></li>
       </ul>
-    </td>
-    <td width="33%" valign="top">
       <strong>👁️ 计算机视觉</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/CNN-Architectures/CNN经典架构.md">CNN经典架构</a></li>
@@ -286,6 +284,8 @@
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/YOLO单阶段系列-note.md">YOLO单阶段系列</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/05-CV/Object-Detection/目标检测与YOLO.md">目标检测与YOLO</a></li>
       </ul>
+    </td>
+    <td width="33%" valign="top">
       <strong>🤝 AI Agent</strong>
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/06-AI-Agents/RAG/All_in_RAG/内容说明.md">内容说明</a></li>
@@ -423,6 +423,7 @@
       <ul>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/docker/docker-note.md">Docker</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/docker/docker常用指令.md">Docker常用指令</a></li>
+        <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/mysql/mysql-常用命令.md">Mysql-常用命令</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/qdrant/qdrant-note.md">Qdrant</a></li>
         <li><a href="https://github.com/husy7/husy-notebook/blob/main/docs/11-工具使用笔记/wsl2手册.md">Wsl2手册</a></li>
       </ul>
