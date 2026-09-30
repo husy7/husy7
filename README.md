@@ -126,6 +126,10 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/GitHub-TrendsInsight">GitHub-TrendsInsight</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
+    <td width="60%" valign="top">GitHub 趋势分析，数据分析项目</td>
+  </tr>
+  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
     <td width="60%" valign="top">个人笔记内容</td>
   </tr>
@@ -159,10 +163,6 @@
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/NotionAILearningMentor">NotionAILearningMentor</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
-    <td width="60%" valign="top">暂无描述</td>
-  </tr>
-  <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/car_parking_fee">car_parking_fee</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">暂无描述</td>
   </tr>
 </table>
