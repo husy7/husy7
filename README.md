@@ -126,12 +126,12 @@
 <!-- PROJECTS_START -->
 <table>
   <tr>
-    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/TripAgent_base_by_helloagent">TripAgent_base_by_helloagent</a></strong><br/><img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"/></td>
-    <td width="60%" valign="top">智能旅行助手agent</td>
-  </tr>
-  <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/GitHub-TrendsInsight">GitHub-TrendsInsight</a></strong><br/><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/></td>
     <td width="60%" valign="top">GitHub 趋势分析，数据分析项目</td>
+  </tr>
+  <tr>
+    <td width="40%" valign="top"><strong><a href="https://github.com/husy7/TripAgent_base_by_helloagent">TripAgent_base_by_helloagent</a></strong><br/><img src="https://img.shields.io/badge/Vue-42B883?style=flat-square&logo=vuedotjs&logoColor=white" alt="Vue"/></td>
+    <td width="60%" valign="top">智能旅行助手agent</td>
   </tr>
   <tr>
     <td width="40%" valign="top"><strong><a href="https://github.com/husy7/husy-notebook">husy-notebook</a></strong></td>
